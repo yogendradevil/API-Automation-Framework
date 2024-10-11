@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-11T05:55:19 UTC" name="RestAssured API Automation Framework" finished-at="2024-10-11T05:55:24 UTC" duration-ms="5448">
+    <groups>
+    </groups>
+    <test started-at="2024-10-11T05:55:19 UTC" name="test-1" finished-at="2024-10-11T05:55:24 UTC" duration-ms="5448">
+      <class name="com.spree.test.countries">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:19 UTC" name="SetUp" finished-at="2024-10-11T05:55:19 UTC" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:19 UTC" name="setup" finished-at="2024-10-11T05:55:19 UTC" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="T01_getDefaultCountries()[pri:1, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:19 UTC" name="T01_getDefaultCountries" finished-at="2024-10-11T05:55:21 UTC" duration-ms="1878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T01_getDefaultCountries -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:21 UTC" name="tearDown" finished-at="2024-10-11T05:55:21 UTC" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T01_getDefaultCountries status=SUCCESS method=countries.T01_getDefaultCountries()[pri:1, instance:com.spree.test.countries@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:21 UTC" name="T02_retrieveaCountry" data-provider="country_iso" finished-at="2024-10-11T05:55:22 UTC" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_retrieveaCountry -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="tearDown" finished-at="2024-10-11T05:55:22 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T02_retrieveaCountry status=SUCCESS method=countries.T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="T02_retrieveaCountry" data-provider="country_iso" finished-at="2024-10-11T05:55:22 UTC" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IND]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_retrieveaCountry -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="tearDown" finished-at="2024-10-11T05:55:22 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T02_retrieveaCountry status=SUCCESS method=countries.T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="T02_retrieveaCountry" data-provider="country_iso" finished-at="2024-10-11T05:55:22 UTC" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PAKISTAN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PAK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_retrieveaCountry -->
+        <test-method signature="T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="T02_retrieveaCountry" data-provider="country_iso" finished-at="2024-10-11T05:55:22 UTC" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UNITED KINGDOM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GBR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_retrieveaCountry -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="tearDown" finished-at="2024-10-11T05:55:22 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T02_retrieveaCountry status=SUCCESS method=countries.T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="tearDown" finished-at="2024-10-11T05:55:22 UTC" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T02_retrieveaCountry status=SUCCESS method=countries.T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="T02_retrieveaCountry" data-provider="country_iso" finished-at="2024-10-11T05:55:22 UTC" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[afg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AFGHANISTAN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AFG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_retrieveaCountry -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="tearDown" finished-at="2024-10-11T05:55:22 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T02_retrieveaCountry status=SUCCESS method=countries.T02_retrieveaCountry(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.test.countries@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="T03_listallCountries()[pri:3, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:22 UTC" name="T03_listallCountries" finished-at="2024-10-11T05:55:24 UTC" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T03_listallCountries -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:24 UTC" name="tearDown" finished-at="2024-10-11T05:55:24 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T03_listallCountries status=SUCCESS method=countries.T03_listallCountries()[pri:3, instance:com.spree.test.countries@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.spree.test.countries@4445629]" started-at="2024-10-11T05:55:24 UTC" name="afterTest" finished-at="2024-10-11T05:55:24 UTC" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.spree.test.countries -->
+    </test> <!-- test-1 -->
+  </suite> <!-- RestAssured API Automation Framework -->
+</testng-results>
